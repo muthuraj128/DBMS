@@ -4,3 +4,4 @@ uploads/
 /.idea
 /.vscode
 dist/
+.env.example
