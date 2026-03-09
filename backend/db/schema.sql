@@ -300,4 +300,3 @@ $$ LANGUAGE plpgsql;
 --      * creates the order and order_items
 --      * relies on next_order_number() for a per-day unique order_number
 --  - All timestamps are stored as timestamptz (UTC); convert in frontend as needed.
-SELECT create_admin_user('admin@example.com', 'Admin', '', 'ChangeMe123!');
